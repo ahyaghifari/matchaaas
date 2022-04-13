@@ -1,0 +1,158 @@
+@import 'style';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: $m;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    position: absolute;
+    padding: 0 30px;
+
+    .header-logo {
+        font-family: $font1;
+        color: $w;
+        text-decoration: none;
+    }
+
+    nav {
+        a {
+            color: $ym;
+            text-decoration: none;
+            font-family: $font2;
+            font-size: 3vh;
+            margin: 0 2.5vw;
+
+            &:hover {
+                color: $c;
+            }
+        }
+    }
+}
+#about-top{
+    padding-top: 15vh;
+}
+#about{
+    display: flex;
+    padding-bottom: 20vh;
+    border-bottom: 1px dashed whitesmoke;
+    .about-body{
+        flex: 0.6;
+        text-align: right;
+        margin-right: 2vw;
+        align-self: center;
+        font-family: $font2;
+        h1{
+            font-family: $font1;
+            color: $dm;
+        }
+        p{
+            color: $g;
+        }
+    }
+    .about-image{
+        flex: 0.4;
+        background-color: $dm;
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+#contactus{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-image: url('../images/vector.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    h1{
+        color: whitesmoke;
+        font-family: $font1;
+    }
+    label{
+        font-family: $font2;
+        color: white;
+    }
+    .form-control{
+        color: whitesmoke;
+        border: none;
+        background-color: $dm;
+    }
+    .form-control:focus{
+        box-shadow: none;
+        font-family: $font2;
+        background-color: whitesmoke;
+        color: $dm;
+    }
+}
+footer {
+    display: flex;
+    height: 50vh;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: $dm;
+
+    .nav-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 3vw;
+        flex: 0.4;
+
+        a {
+            color: $w;
+            font-family: $font2;
+            text-decoration: none;
+            font-size: 3vh;
+        }
+    }
+
+    .social-media {
+        flex: 0.2;
+        display: flex;
+        flex-direction: column;
+
+        h6 {
+            display: block;
+            font-family: $font2;
+            color: $m;
+        }
+
+        .bi {
+            color: $w;
+            font-size: 3vh;
+            margin: 3vh 0;
+        }
+    }
+
+    .copyright {
+        flex: 0.4;
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        text-align: right;
+
+        .reserved {
+            font-family: $font2;
+            font-weight: bolder;
+            color: $m;
+        }
+
+        p {
+            font-family: $font2;
+            color: $w;
+        }
+    }
+}

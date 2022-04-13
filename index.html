@@ -4,114 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matchaaaas</title>
+    <title>matchaaas | home</title>
+    
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-    <!-- JQUery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/index.css">
 
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-
-
 </head>
 <body>
 
-    <header>
-        <div class="nav">
-            <div class="navlogo">
-                <h3>Matchaaas</h3>
-            </div>
+    <div id="header"></div>
 
-            <div class="navigation">
-                <a href="#home">Home</a>
-                <a href="#products">Products</a>
-                <a href="#about">About</a>
-                <a href="#contactus">ContactUs</a>
+    <main>
+        <div id="home" class="container-fluid">
+            <div class="greeting">
+                <h1>Welcome, to <br><span class="matchasss"> matchaaas</span></h1>
+                <h4>The best of the best place to get best donut in the world</h3>
             </div>
-
+            <div class="image-greeting"></div>
         </div>
-    </header>
-
-    <main class="container">
-
-            <!-- BANNNER -->
-            <div class="banner" id="home">
-            <div class="title">
-                <h1>Matchaaas</h1>
-                <h3>The Only One Best Matcha Dougnut In the World</h3>
-            </div>
-            <div class="image">
-                <img src="assets/images/matcha.png" class="theSlides" alt="">
-                <!-- <img src="assets/images/cup.png" class="theSlides" alt="">
-                <img src="assets/images/bread.png" class="theSlides" alt=""> -->
-            </div>
-            <!-- WAVE -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="wave1" viewBox="0 0 1440 320"><path fill="#2e3812" fill-opacity="1" d="M0,96L30,106.7C60,117,120,139,180,138.7C240,139,300,117,360,128C420,139,480,181,540,192C600,203,660,181,720,160C780,139,840,117,900,128C960,139,1020,181,1080,192C1140,203,1200,181,1260,165.3C1320,149,1380,139,1410,133.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
-            </div>
-        
-
-            <!-- PRODUCTS -->
-            <div class="products" id="products">
-                <h1>Products</h1>
-                <div class="products-items">
-                    <div class="items">
-                        <img src="assets/images/matcha.png" alt="">
-                    </div>
-                    <div class="items">
-                        <img src="assets/images/matcha.png" alt="">
-                    </div>
-                    <div class="items">
-                        <img src="assets/images/matcha.png" alt="">
-                    </div>
-                    <div class="items">
-                        <img src="assets/images/matcha.png" alt="">
-                    </div>
+        <div id="home-details" class="container-fluid">
+            <h1> get the best taste of donuts from us</h1>
+            <div id="home-details-contents" class="container">
+                <div class="content" data-aos="fade-up">
+                    <img src="menu/donut6.png" alt="" class="img-fluid">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur eum aliquid error hic? Voluptas eum commodi aspernatur ab! Nulla debitis, modi nisi distinctio consequuntur in ipsa aliquid eos cupiditate voluptas.</p>
+                </div>
+                <div class="content" data-aos="fade-up">
+                    <img src="menu/coffe3.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quo at quaerat, placeat rerum officia aspernatur laborum esse, blanditiis ipsum veniam repudiandae eos vel odit? Provident dolor sint assumenda natus.</p>
                 </div>
             </div>
+        </div>
+        <div id="menu">
+            <h2>Menu</h2>
+            <div class="menu-cont">
+            <div class="menus" data-aos="zoom-in">
+                    <img src="menu/donut1.png" class="img-fluid" alt="">
+                    <h5>Donuts</h5>
+                </div>
+                <div class="menus" data-aos="zoom-in">
+                    <img src="menu/coffe1.png" class="img-fluid" alt="">
+                    <h5>Coffe</h5>
+                </div>
+                <div class="menus" data-aos="zoom-in">
+                    <img src="menu/desert1.png" class="img-fluid" alt="">
+                    <h5>Deserts</h5>
+                </div>
+            </div>
+        </div>
+        <div id="locations">
+            <div class="location">
+                <h2>Check Our Locations</h2>
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </div>
+        </div>
+    </main>
 
-            <svg xmlns="http://www.w3.org/2000/svg" class="wavesss" viewBox="0 0 1440 320"><path fill="#2e3812" fill-opacity="1" d="M0,96L30,106.7C60,117,120,139,180,138.7C240,139,300,117,360,128C420,139,480,181,540,192C600,203,660,181,720,160C780,139,840,117,900,128C960,139,1020,181,1080,192C1140,203,1200,181,1260,165.3C1320,149,1380,139,1410,133.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
-           
-             <!-- PROMO -->
-             <div class="promo">
-                <h1 data-aos="zoom-in">You want matcha taste, but you want the taste is good for your doughnut <br><span>Matchaaas</span> know the answer</h1>
-             </div>
+    <div id="footer"></div>
 
-             <svg height='20' width='100%' class="spanline"></svg>
 
-             <!-- ABOUT -->
-             <div class="about" id="about">
-                 <h1 class="about-title">About</h1>
-                 <p class="about-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magni possimus asperiores dignissimos voluptatem enim dicta, omnis inventore iste temporibus voluptate culpa molestias perspiciatis rerum nisi laborum odio, quidem tempora quasi neque voluptas vitae officia aperiam. Eligendi, molestias! Voluptatum voluptates earum dolorem fugiat numquam, minus eum similique aliquid consectetur odio velit, exercitationem blanditiis facere amet recusandae assumenda cupiditate error? Voluptatibus.</p>
-             </div>
-
-             <!-- CONTACT US -->
-             <div id="contactus" class="contactus">
-                 <form>
-                     <div class="form-items">
-                        <label>Name : </label>
-                        <input type="text" placeholder="Name" class="in-cont"  data-aos="fade-right">
-                    </div>
-                     <div class="form-items">
-                        <label>Email : </label>
-                        <input type="email" placeholder="Email" class="in-cont"  data-aos="fade-right">
-                    </div>
-                    <div class="form-items forms">
-                        <label>Message : </label>
-                        <textarea name="" id="" cols="30" rows="10"  data-aos="fade-right" placeholder="Message..."></textarea>
-                    </div>
-                    <button disabled>Send</button>
-                </form>
-             </div>
-    </main> 
-    
-    <footer>
-        <h2>@matchaaas2022</h2>
-    </footer>
-    <script src="./assets/js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init()
+            $(document).ready(function () {
+                $('#header').load('components/header.html');
+                $('#footer').load('components/footer.html');
+            });
+        </script>
 </body>
 </html>

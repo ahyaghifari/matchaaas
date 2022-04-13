@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Quicksand&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #455A20;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 8vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  padding: 0 30px;
+}
+
+header .header-logo {
+  font-family: "Chango", cursive;
+  color: #EFEEDE;
+  text-decoration: none;
+}
+
+header nav a {
+  color: #96B83D;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 3vh;
+  margin: 0 2.5vw;
+}
+
+header nav a:hover {
+  color: #381d0a;
+}
+
+#about-top {
+  padding-top: 15vh;
+}
+
+#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20vh;
+  border-bottom: 1px dashed whitesmoke;
+}
+
+#about .about-body {
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+  text-align: right;
+  margin-right: 2vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+#about .about-body h1 {
+  font-family: "Chango", cursive;
+  color: #2a3d12;
+}
+
+#about .about-body p {
+  color: #dbdac9;
+}
+
+#about .about-image {
+  -webkit-box-flex: 0.4;
+      -ms-flex: 0.4;
+          flex: 0.4;
+  background-color: #2a3d12;
+}
+
+#about .about-image img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#contactus {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  background-image: url("../images/vector.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+#contactus h1 {
+  color: whitesmoke;
+  font-family: "Chango", cursive;
+}
+
+#contactus label {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+}
+
+#contactus .form-control {
+  color: whitesmoke;
+  border: none;
+  background-color: #2a3d12;
+}
+
+#contactus .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-family: "Quicksand", sans-serif;
+  background-color: whitesmoke;
+  color: #2a3d12;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  padding: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #2a3d12;
+}
+
+footer .nav-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 3vw;
+  -webkit-box-flex: 0.4;
+      -ms-flex: 0.4;
+          flex: 0.4;
+}
+
+footer .nav-footer a {
+  color: #EFEEDE;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  font-size: 3vh;
+}
+
+footer .social-media {
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .social-media h6 {
+  display: block;
+  font-family: "Quicksand", sans-serif;
+  color: #455A20;
+}
+
+footer .social-media .bi {
+  color: #EFEEDE;
+  font-size: 3vh;
+  margin: 3vh 0;
+}
+
+footer .copyright {
+  -webkit-box-flex: 0.4;
+      -ms-flex: 0.4;
+          flex: 0.4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+}
+
+footer .copyright .reserved {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  color: #455A20;
+}
+
+footer .copyright p {
+  font-family: "Quicksand", sans-serif;
+  color: #EFEEDE;
+}
+/*# sourceMappingURL=about.css.map */
