@@ -386,7 +386,7 @@ footer .copyright p {
     background-attachment: fixed;
     background-size: cover;
   }
-  #home-details #home-details-content .content img {
+  #home-details #home-details-contents .content img {
     width: 180px;
   }
 }
@@ -403,7 +403,7 @@ footer .copyright p {
   #menu .menus img {
     width: 10rem;
   }
-  #home-details #home-details-content .content img {
+  #home-details #home-details-contents .content img {
     width: 150px;
   }
 }

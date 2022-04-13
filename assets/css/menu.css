@@ -206,19 +206,19 @@ footer .copyright p {
         justify-content: space-around;
   }
   .menus {
-    width: 14rem;
+    width: 13rem;
   }
   .menus img {
-    width: 12rem;
+    width: 11rem;
   }
 }
 
 @media (max-width: 600px) {
   .menus {
-    width: 11rem;
+    width: 10rem;
   }
   .menus img {
-    width: 9rem;
+    width: 8rem;
   }
 }
 /*# sourceMappingURL=menu.css.map */
