@@ -73,7 +73,7 @@ header nav a:hover {
   border: none;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.13);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.13);
-  width: 16rem;
+  width: 15rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,7 +98,7 @@ header nav a:hover {
   -o-object-fit: contain;
      object-fit: contain;
   height: 200px;
-  width: 13rem;
+  width: 12rem;
   -webkit-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
 }
@@ -206,19 +206,28 @@ footer .copyright p {
         justify-content: space-around;
   }
   .menus {
-    width: 13rem;
+    width: 15rem;
   }
   .menus img {
-    width: 11rem;
+    width: 13rem;
   }
 }
 
 @media (max-width: 600px) {
   .menus {
+    width: 12rem;
+  }
+  .menus img {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .menus {
     width: 10rem;
   }
   .menus img {
-    width: 8rem;
+    width: 7rem;
   }
 }
 /*# sourceMappingURL=menu.css.map */
