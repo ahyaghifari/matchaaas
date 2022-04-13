@@ -107,7 +107,7 @@ header {
       p {
         font-family: $font2;
         color: $c;
-        width: 40%;
+
         margin-left: 2vw;
       }
       img {
@@ -262,8 +262,7 @@ footer {
     }
   }
 }
-
-@media (max-width: 600px) {
+@media (max-width: 768px){
   #home {
     .image-greeting {
       width: 100vw;
@@ -271,13 +270,37 @@ footer {
       background-size: cover;
     }
   }
+
+  #home-details{
+    #home-details-content{
+      .content{
+        img{
+          width: 180px;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 600px) {
   #menu{
+    height: max-content;
       .menus{
           width: 12rem;
           img{
               width: 10rem;
           }
       }
+  }
+  #home-details {
+    #home-details-content {
+      .content {
+        img {
+          width: 150px;
+        }
+      }
+    }
   }
 }
 

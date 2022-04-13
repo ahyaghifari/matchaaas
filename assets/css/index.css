@@ -153,7 +153,6 @@ header nav a:hover {
 #home-details #home-details-contents .content p {
   font-family: "Quicksand", sans-serif;
   color: #381d0a;
-  width: 40%;
   margin-left: 2vw;
 }
 
@@ -381,17 +380,31 @@ footer .copyright p {
   color: #EFEEDE;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   #home .image-greeting {
     width: 100vw;
     background-attachment: fixed;
     background-size: cover;
+  }
+  #home-details #home-details-content .content img {
+    width: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  #menu {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
   #menu .menus {
     width: 12rem;
   }
   #menu .menus img {
     width: 10rem;
+  }
+  #home-details #home-details-content .content img {
+    width: 150px;
   }
 }
 
