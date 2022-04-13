@@ -201,10 +201,9 @@ footer .copyright p {
 }
 
 @media (max-width: 768px) {
-  #menus-cont .menus-cont {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+  #menu-cont .menus-cont {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .menus {
     width: 14rem;
@@ -216,10 +215,10 @@ footer .copyright p {
 
 @media (max-width: 600px) {
   .menus {
-    width: 12rem;
+    width: 11rem;
   }
   .menus img {
-    width: 11rem;
+    width: 9rem;
   }
 }
 /*# sourceMappingURL=menu.css.map */

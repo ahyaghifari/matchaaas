@@ -148,9 +148,9 @@ footer {
 
 // RESPONSIVE
 @media(max-width: 768px){
-    #menus-cont{
+    #menu-cont{
         .menus-cont{
-            justify-content: space-between;
+            justify-content: space-around;
         }
     }
     .menus{
@@ -162,9 +162,9 @@ footer {
 }
 @media(max-width: 600px){
     .menus{
-        width: 12rem;
+        width: 11rem;
         img{
-            width: 11rem;
+            width: 9rem;
         }
     }
 }
